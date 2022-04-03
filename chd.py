@@ -16,7 +16,7 @@ st.header('Framingham Cardiovascular Disease Dataset')
 st.markdown('The data has been cleaned and the raw data can be obtained from '
             '[here]( https://www.kaggle.com/datasets/captainozlem/framingham-chd-preprocessed-data/ ).')
 
-chd_raw = pd.read_csv('coronary.csv')
+chd_raw = pd.read_csv('chd.csv')
 
 
 def user_input():

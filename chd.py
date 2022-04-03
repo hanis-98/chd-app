@@ -68,9 +68,9 @@ st.subheader('In the next ten years, the person with the above feature will like
 chd_pred = np.array([1, 0])
 yes = chd_pred[prediction]
 if yes == 0:
-    st.write('have Coronary Disease')
+    st.write('have Cardiovascular Disease')
 else:
-    st.write('not have Coronary Disease')
+    st.write('not have Cardiovascular Disease')
 
 st.subheader('Prediction Probability')
 st.write(prediction_proba)
